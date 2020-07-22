@@ -1,4 +1,5 @@
-# how-to-add-icon-on-specific-row-header-of-wpf-datagrid
+# How to add icon on specific row header of WPF DataGrid(SfDataGrid)?
+
 ## About the sample
 This sample illustrated that how to add icon on specific row header of WPF DataGrid(SfDataGrid).
 
@@ -36,7 +37,7 @@ foreach(var record in datagrid.View.Records)
     }
 }
 ```
+![IconForRowHeader](IconForRowHeader.png)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
-
-![IconForRowHeader](IconForRowHeader.png)
