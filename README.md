@@ -35,4 +35,4 @@ foreach(var record in datagrid.View.Records)
     }
 }
 ```
-![IconInRowHeader](IconInRowHeader.png)
+![IconForRowHeader](IconForRowHeader.png)
