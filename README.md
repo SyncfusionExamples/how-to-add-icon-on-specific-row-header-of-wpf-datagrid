@@ -1,9 +1,10 @@
 # How to add icon on specific row header of WPF DataGrid(SfDataGrid)?
 
 ## About the sample
-This sample illustrated that how to add icon on specific row header of WPF DataGrid(SfDataGrid).
 
-By default, the SfDataGrid does not have add any image in RowHeader cells. However, an image can be added in the RowHeader cell by adding an external property for Syncfusion:GridRowHeaderCell to bind the image with RowHeader cell.
+This sample illustrated that how to add icon on specific row header of [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid).
+
+The [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) does not provide the direct support to add an image in RowHeader cells. But you can add an image in the RowHeader cell by customizing the [Syncfusion:GridRowHeaderCell](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.GridRowHeaderCell.html).
 
 ```xaml
 <Window.Resources>
