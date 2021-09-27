@@ -40,5 +40,7 @@ foreach(var record in datagrid.View.Records)
 ```
 ![IconForRowHeader](IconForRowHeader.png)
 
+KB article - [How to add icon on specific row header of WPF DataGrid(SfDataGrid)?](https://www.syncfusion.com/kb/11769/how-to-add-icon-on-specific-row-header-of-wpf-datagrid-sfdatagrid)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
