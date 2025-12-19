@@ -1,12 +1,12 @@
-# How to add icon on specific row header of WPF DataGrid(SfDataGrid)?
+# How to Add Icon on Specific Row Header of WPF DataGrid?
 
-## About the sample
+This sample illustrated that how to add icon on specific row header of [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid).
 
-This sample illustrated that how to add icon on specific row header of [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid).
+The `DataGrid` does not provide the direct support to add an image in RowHeader cells. But you can add an image in the RowHeader cell by customizing the [Syncfusion:GridRowHeaderCell](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridRowHeaderCell.html).
 
-The [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid) does not provide the direct support to add an image in RowHeader cells. But you can add an image in the RowHeader cell by customizing the [Syncfusion:GridRowHeaderCell](https://help.syncfusion.com/cr/cref_files/wpf/Syncfusion.SfGrid.WPF~Syncfusion.UI.Xaml.Grid.GridRowHeaderCell.html).
+#### XAML
 
-```xaml
+```xml
 <Window.Resources>
     <local:RowHeaderConverter x:Key="rowHeaderConverter"/>
     <Style TargetType="syncfusion:GridRowHeaderCell">
@@ -27,6 +27,8 @@ The [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataG
 </Window.Resources>
 ```
 
+#### C#
+
 ```C#
 foreach(var record in datagrid.View.Records)
 {
@@ -38,9 +40,4 @@ foreach(var record in datagrid.View.Records)
     }
 }
 ```
-![IconForRowHeader](IconForRowHeader.png)
-
-KB article - [How to add icon on specific row header of WPF DataGrid(SfDataGrid)?](https://www.syncfusion.com/kb/11769/how-to-add-icon-on-specific-row-header-of-wpf-datagrid-sfdatagrid)
-
-## Requirements to run the demo
-Visual Studio 2015 and above versions
+![DataGrid with icon added to the specifc row header](RowHeaderWithIcon.png)
